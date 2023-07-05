@@ -1,0 +1,43 @@
+#spreadsheet-container{
+    margin:auto;
+    display:table;
+}
+.cell-head{
+   margin-left: 135px;
+}
+.cell-row {
+   display: flex;
+}
+.cell {
+   width: 180px;
+   border: 1px solid #555;
+   height: 40px;
+   outline: none;
+   box-sizing: border-box;
+}
+.cell.header{
+   text-align: center;
+   background: #f1bfbf;
+}
+
+.cell.header.active {
+   background: #31bbf1;
+   color: white;
+}
+.cell:focus {
+   border: 3px solid #13eb1a;
+}
+#download-btn {
+   background: green;
+   color: white;
+   border: none;
+   padding: 10px;
+   display: inline-block;
+   margin: 20px 0 0 1090px;;
+   cursor: pointer;
+   border-radius:50px;
+   
+}
+#download-btn:hover{
+   background:blue;
+}
